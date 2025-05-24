@@ -21,8 +21,7 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@/app/*": ["app/*"],
-      "@/scripts/*": ["scripts/*"]
+      "@/app/*": ["app/*"]
     }
   },
   "include": [
@@ -30,8 +29,8 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/lib/placeholder-data.ts",
-    "scripts/seed.js"
+    "app/lib/placeholder-data.ts"
+    // "scripts/seed.js"
   ],
   "exclude": ["node_modules"]
 }
